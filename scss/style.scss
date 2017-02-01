@@ -1,0 +1,126 @@
+// _____________________FONTS START____________________
+
+
+@import url(//db.onlinewebfonts.com/c/14792084dfffdbe3116c33b3a8c5c5f9?family=Futura+Std);
+
+@font-face {font-family: "Futura Std";
+    src: url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.eot");
+    src: url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/93dfd51b8a2f04cf6b71f2eea0d20031.svg#Futura Std") format("svg");
+}
+
+@import url(//db.onlinewebfonts.com/c/2184e38751bd90baea505aef3f313bda?family=Avenir);
+
+@font-face {font-family: "Avenir";
+    src: url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.eot");
+    src: url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/2184e38751bd90baea505aef3f313bda.svg#Avenir") format("svg");
+}
+// _____________________FONTS END____________________
+
+.cta{
+  
+  margin-top:30vh;
+
+.card-title {
+  font-family: 'Futura Std';
+  font-size:34px;
+  font-weight: 800;
+  text-align:left;
+  letter-spacing: 0em; 
+}
+
+.card-copy {
+  font-family: 'Avenir';
+  font-weight: 100;
+  text-align:left;
+  letter-spacing: 0em; 
+
+}
+
+a {
+  font-family: 'Avenir';
+  font-weight: 400;
+  text-align:center;
+}
+
+.content p{
+  margin-top: -20px;
+  font-size:18px;
+}
+
+
+.full-card {
+  font-size: 0.9em;
+  background: #7777b8;
+  width: 60vw;
+  color: white;
+  display: inline-block;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 5px;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+  transition: color 0.6s, box-shadow 0.3s, transform 0.3s;
+  &:hover {
+  //5 lines above are used to center card
+    box-shadow: 0 3px 5px -5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+    color: white;
+    
+  }
+}
+
+.content{
+  margin: -19px 20px auto 40px;
+  
+}
+
+.button {
+  margin: 0 auto;
+  font-size: 0.9em;
+  background: #96cd91;
+  width: 190px;
+  color: white;
+  display: block;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.3);
+  transition: color 0.6s, box-shadow 0.3s, transform 0.3s;
+  &:hover {
+    box-shadow: 0 3px 5px -5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+    color: #e6e6e6;
+  }
+}
+
+
+.copy{
+  display: block;
+  float:left;
+  // background-color:yellow;
+  width:70%;
+}
+
+.btn-cta{
+  display: block;
+  float:left;
+  width:30%;
+  margin: 5vh 0 0 0;
+  font-size:18px
+  // background-color:yellow;
+}
+
+    
+}
